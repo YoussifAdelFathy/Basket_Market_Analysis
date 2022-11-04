@@ -2,7 +2,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 
-Data = pd.read_excel(r"D:\Academics\DS\Semster 3\Data M\Online Retail.xlsx")
+Data = pd.read_excel("Retail.xlsx")
 print(Data.head())
 print(Data.columns)
 print(Data.Country.unique())
